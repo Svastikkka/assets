@@ -1,3 +1,4 @@
+[Problem](https://github.com/rtyley/bfg-repo-cleaner/issues/29)
 I followed the instructions correctly but then when I go to push I get this error. The repo was up to date beforehand.
 
 ! [rejected] master -> master (fetch first)
