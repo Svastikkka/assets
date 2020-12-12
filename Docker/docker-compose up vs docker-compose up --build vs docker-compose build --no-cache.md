@@ -1,3 +1,4 @@
+[Problem](https://stackoverflow.com/questions/39988844/docker-compose-up-vs-docker-compose-up-build-vs-docker-compose-build-no-cach)
 The following only builds the images, does not start the containers:
 
 ```docker-compose build```
