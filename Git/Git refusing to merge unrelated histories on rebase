@@ -1,3 +1,5 @@
+Problem:- https://stackoverflow.com/questions/37937984/git-refusing-to-merge-unrelated-histories-on-rebase
+
 During git rebase origin/development the following error message is shown from Git:
 
 ```
