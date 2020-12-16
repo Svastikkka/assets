@@ -1,0 +1,2 @@
+[Problem](https://stackoverflow.com/questions/58117637/cleanup-the-var-lib-jenkins-caches-folder)
+Yes, You should be able to delete all files under the caches. The cache directory contains data related to the git repository configured in Jenkin's job. Jenkins will caches the data again as you executed the builds depending upon the repositories used in those build by leveraging config.xml file of each job.
