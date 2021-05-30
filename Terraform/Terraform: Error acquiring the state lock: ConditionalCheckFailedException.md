@@ -1,4 +1,4 @@
-(Problem)[https://stackoverflow.com/questions/62189825/terraform-error-acquiring-the-state-lock-conditionalcheckfailedexception]:-  Terraform: Error acquiring the state lock: ConditionalCheckFailedException
+[Problem](https://stackoverflow.com/questions/62189825/terraform-error-acquiring-the-state-lock-conditionalcheckfailedexception):-  Terraform: Error acquiring the state lock: ConditionalCheckFailedException
 # Cause of Error
 This error usually appears when one process fails running `terraform plan` or `terraform apply`. For example if your network connection interrupts or the process is terminated before finishing. Then Terraform "thinks" that this process is still working on the infrastructure and blocks other processes from working with the same infrastructure and state at the same time in order to avoid conflicts.
 
